@@ -39,7 +39,7 @@ a:hover {
 }
 
 body {
-    background: hsl(84, 3%, 94%);
+    background: hsl(60, 20%, 76%);
 }
 
 .main_header__div {
@@ -213,12 +213,14 @@ figure img:hover,
 
 /************* left side of the blog style starts*/
 .blog_left__divh1 {
+    border-radius: 30%;
     font-family: var(--title);
     font-weight: bold;
     font-size: 3rem;
 }
 
 .blog_left__div .blog_title {
+    border-radius: 30%;
     font-weight: 400;
     font-size: 2.2rem;
 }
@@ -233,6 +235,7 @@ figure img:hover,
 }
 
 .blog_left__div .left_div__like {
+    border-radius: 50%;
     color: var(--btn-font-color);
     border-width: .2rem;
     font-size: var(--btn-font);
@@ -245,6 +248,7 @@ figure img:hover,
 
 .blog_left__div .left_div__reply {
     color: var(--btn-font-color);
+    border-radius: 50%;
     border-width: .2rem;
     font-size: var(--btn-font);
     transition: var(--eff);
