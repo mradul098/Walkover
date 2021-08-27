@@ -453,3 +453,56 @@ footer p {
     }
 
 }
+
+
+.contact
+{
+	background-image: linear-gradient(120deg,cyan,violet,blue) 
+}
+
+.typemessage
+{
+	display: inline-block;
+	width: 50%;
+}
+
+.contact-detail
+{
+	border-width: 0; 
+	outline: 0;
+	box-shadow: none;
+	font-size:20px; 
+	border:none;
+	padding-right: 5rem;
+	margin-left: 3rem;
+	color: white;
+	border-bottom: white 1px solid;
+	margin-bottom: 30px;
+	/*border-bottom: solid white 2px;*/
+}
+
+.typemessage input
+{
+	display: inline-block;
+	color: white;
+	background: transparent;
+}
+
+.submit
+{
+	border-color: white;
+	margin-left: 3rem;
+	font-size: 20px;
+}
+
+.submit:hover
+{
+	background-color: violet;
+	color: cyan;
+}
+
+.getintouch
+{
+	
+	display: inline-block;
+}
