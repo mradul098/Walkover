@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang='en'>
+  
+<head>
+    <meta charset="utf-8">
+  
+  
+  
+    <style>
+        body,
+        html {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+  
+        .box-wrapper {
+            height: 600px;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+        }
+  
+        #box1 {
+            padding: 10px;
+            height: 30px;
+            line-height: 30px;
+            border: solid 1px green
+        }
+  
+        #box2 {
+            height: 15px;
+            padding: 8px;
+            border: solid 1px blue
+        }
+  
+        #box3 {
+            padding: 10px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: row;
+            border: solid 1px green
+        }
+  
+        #box4 {
+            flex-grow: 2;
+            border: solid 1px orange
+        }
+        #box5 {
+            padding: 1em;
+            height: 500px;
+            flex-grow: 2;
+            width: 130px;
+            margin-left: 1em;
+            display: inline-block;
+            border: solid 1px orange
+        }
+        #box8 {
+            padding: 1em;
+            height: 200px;
+            flex-grow: 2;
+            width: 130px;
+            margin-left: 1em;
+            display: inline-block;
+            border: solid 1px orange
+        }
+        #imgs {
+            width: 200px;
+            height: 200px;
+            /* border-radius: 50%; */
+            text-align: center;
+            font-size: 30px;
+            float: left;
+            font-weight: bold;
+              
+            /* Change the shape according
+                to the image */
+            /* shape-outside: circle(); */
+            background-color: Green;
+            color: white;
+        }
+        #box8 {
+            padding-top: -456px;
+            padding: 1em;
+            height: 200px;
+            /* flex-grow: 2; */
+            width: 130px;
+            margin-left: 1em;
+            display: inline-block;
+            border: solid 1px orange
+        }
+        #box6 {
+            padding: 1em;
+            height: 200px;
+            flex-grow: 2;
+            width: 130px;
+            margin-left: 1em;
+            display: inline-block;
+            border: solid 1px orange
+        }
+        #box7 {
+            padding: 1em;
+            height: 300px;
+            flex-grow: 2;
+            width: 250px;
+            margin-left: 1em;
+            display: block;
+            border: solid 1px orange
+        }
+  
+        .middle-column {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+  
+        }
+  
+        .middle-column div {
+            flex-grow: 1;
+            margin: 0 8px;
+            border: solid 1px red;
+        }
+  
+        .middle-column div+div {
+            margin-top: 8px
+        }
+  
+        #box8 {
+            flex-grow: 1;
+            border: solid 1px black
+        }
+        #box9 {
+            display: inline-block;
+            overflow: hidden;
+            border: solid 1px black
+        }
+    </style>
+</head>
+  
+<body>
+    <div class="box-wrapper">
+        <!-- <div id="box1">
+            GeeksforGeeks 1
+        </div> -->
+  
+        <!-- <div id="box2">
+            GeeksforGeeks 2
+        </div> -->
+  
+        <div id="box3">
+            <div id="box4">
+                <div id="box6">
+                    
+                </div>
+                <div id="box6">
+                   
+                </div>
+                <div id="box7">
+                   
+                        <li>The syntax and forms of the language</li>
+                         <li>Specificity, inheritance, and the Cascade</li>   
+                         <li> CSS units and values and functional notations</li>  
+                         <li>Box model and margin collapse</li>   
+                           <li>The containing block</li> 
+                          <li>Stacking and block-formatting contexts</li>  
+                           <li>Initial, computed, used, and actual values</li> 
+                          <li>CSS shorthand properties</li>  
+                            
+                    
+                </div>
+            </div>
+            <div id="box4">
+                <div id="box5">
+                    
+                </div>
+                <div id="box5">
+                    
+                </div>
+            </div>
+            <!-- <div class="middle-column">
+                <div id="box5">
+                    GeeksforGeeks 5
+                </div>
+                <div id="box6">
+                    GeeksforGeeks 6
+                </div>
+                <div id="box7">
+                    GeeksforGeeks 7
+                </div>
+            </div> -->
+            <div id="box4">
+                
+
+                <div id="box9">
+                    <img src="./images/p1.jpg" id="imgs">
+                    CSS is the language for describing the presentation.
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <!-- <img src="./images/p1.jpg" id="imgs"> -->
+                The HTML is used to generate the user interface
+                    <img src="./images/p2.jpg" id="imgs">
+                
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+  
+</html>

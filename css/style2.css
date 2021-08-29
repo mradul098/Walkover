@@ -1,0 +1,47 @@
+span.a {
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;  
+    background-color: yellow; 
+  }
+  
+  span.b {
+    display: inline-block;
+    width: 30%;
+    height: 600px;
+    padding: 1em;
+    border: 1px solid blue;    
+    background-color: yellow; 
+  }
+  .d {
+    display: inline;
+    /* width: 400px; */
+    /* size: 400px; */
+    /* height: 200px; */
+    padding: 100px;
+    margin-top: 322px;
+    margin-right: 7px;
+    border: 1px solid blue;    
+    background-color: green; 
+  }
+  .e {
+    display: inline-block;
+    /* width: 400px; */
+    /* size: 400px; */
+    /* height: 200px; */
+    padding: 200px;
+    margin-top: 122px;
+    margin-right: 7px;
+    border: 1px solid blue;    
+    background-color: green; 
+  }
+  span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+  }
