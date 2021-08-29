@@ -23,31 +23,31 @@ h1 {
 .threef {
   padding: 1em;
   text-align: center;
-  border-top: 1em solid blue;
-  border-left: 1em solid blue;
-  border-bottom: 0.5em solid blue;
-  border-right: 0.5em solid blue;
+  border-top: 1em  blue;
+  border-left: 1em  blue;
+  border-bottom: 0.5em  blue;
+  border-right: 0.5em  blue;
 }
 
 .tai {
-  border-top: 1em solid blue;
-  border-right: 1em solid blue;
-  border-bottom: 0.5em solid blue;
-  border-left: 0.5em solid blue;
+  border-top: 1em  blue;
+  border-right: 1em  blue;
+  border-bottom: 0.5em  blue;
+  border-left: 0.5em  blue;
 }
 
 .kwan {
-  border-top: 0.5em solid blue;
-  border-right: 0.5em solid blue;
-  border-bottom: 1em solid blue;
-  border-left: 1em solid blue;
+  border-top: 0.5em  blue;
+  border-right: 0.5em  blue;
+  border-bottom: 1em  blue;
+  border-left: 1em  blue;
 }
 
 .do {
-  border-top: 0.5em solid blue;
-  border-left: 0.5em solid blue;
-  border-bottom: 1em solid blue;
-  border-right: 1em solid blue;
+  border-top: 0.5em  blue;
+  border-left: 0.5em  blue;
+  border-bottom: 1em  blue;
+  border-right: 1em  blue;
 }
 .container {
   width: 100%;
@@ -76,22 +76,22 @@ h1 {
   height: 100%;
   width: 47%;
   background-color: aqua;
-  border-top: 1em solid blue;
-  border-bottom: 1em solid blue;
+  border-top: 1em  blue;
+  border-bottom: 1em  blue;
 }
 
 .boxy {
-  border-right: 1em solid blue;
+  border-right: 1em  blue;
 }
 
 .boxu {
-  border-left: 1em solid blue;
+  border-left: 1em  blue;
 }
 
 .secind_box {
   width: 100%;
   height: 47%;
-  border: 0.5em solid blue;
+  border: 0.5em  blue;
   background-color: aqua;
   padding: 1em;
 }
