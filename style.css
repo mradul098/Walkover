@@ -11,6 +11,44 @@ h1 {
   text-align: center;
   margin: 1em;
 }
+.threef,
+.tai,
+.kwan,
+.do {
+  height: 50%;
+  width: 50%;
+  background-color: aqua;
+}
+
+.threef {
+  padding: 1em;
+  text-align: center;
+  border-top: 1em solid blue;
+  border-left: 1em solid blue;
+  border-bottom: 0.5em solid blue;
+  border-right: 0.5em solid blue;
+}
+
+.tai {
+  border-top: 1em solid blue;
+  border-right: 1em solid blue;
+  border-bottom: 0.5em solid blue;
+  border-left: 0.5em solid blue;
+}
+
+.kwan {
+  border-top: 0.5em solid blue;
+  border-right: 0.5em solid blue;
+  border-bottom: 1em solid blue;
+  border-left: 1em solid blue;
+}
+
+.do {
+  border-top: 0.5em solid blue;
+  border-left: 0.5em solid blue;
+  border-bottom: 1em solid blue;
+  border-right: 1em solid blue;
+}
 .container {
   width: 100%;
   height: 100%;
@@ -27,14 +65,14 @@ h1 {
   margin: 1em;
 }
 
-.box1_A {
+.first_box {
   display: flex;
   width: 100%;
   height: 50%;
 }
 
-.box1_A1,
-.box1_A2 {
+.first_box1,
+.first_box2 {
   height: 100%;
   width: 50%;
   background-color: aqua;
@@ -50,7 +88,7 @@ h1 {
   border-left: 1em solid blue;
 }
 
-.box1_B {
+.secind_box {
   width: 100%;
   height: 50%;
   border: 0.5em solid blue;
@@ -58,9 +96,6 @@ h1 {
   padding: 1em;
 }
 
-li {
-  margin: 0.5em;
-}
 
 #box2 {
   display: flex;
@@ -68,8 +103,8 @@ li {
   padding: 1em;
 }
 
-.box2_A,
-.box2_B {
+.secfirst,
+.secsec {
   height: 100%;
   width: 50%;
   background-color: aqua;
@@ -81,44 +116,7 @@ li {
   flex-wrap: wrap;
 }
 
-.box3_A,
-.box3_B,
-.box3_C,
-.box3_D {
-  height: 50%;
-  width: 50%;
-  background-color: aqua;
-}
 
-.box3_A {
-  padding: 1em;
-  text-align: center;
-  border-top: 1em solid blue;
-  border-left: 1em solid blue;
-  border-bottom: 0.5em solid blue;
-  border-right: 0.5em solid blue;
-}
-
-.box3_B {
-  border-top: 1em solid blue;
-  border-right: 1em solid blue;
-  border-bottom: 0.5em solid blue;
-  border-left: 0.5em solid blue;
-}
-
-.box3_C {
-  border-top: 0.5em solid blue;
-  border-right: 0.5em solid blue;
-  border-bottom: 1em solid blue;
-  border-left: 1em solid blue;
-}
-
-.box3_D {
-  border-top: 0.5em solid blue;
-  border-left: 0.5em solid blue;
-  border-bottom: 1em solid blue;
-  border-right: 1em solid blue;
-}
 
 img {
   height: 100%;
@@ -136,8 +134,8 @@ img {
   #box2 {
     flex-direction: column;
   }
-  .box2_A,
-  .box2_B {
+  .secfirst,
+  .secsec {
     width: 100%;
     height: 50%;
   }
