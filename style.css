@@ -3,14 +3,8 @@
   margin: 0;
   box-sizing: border-box;
 }
-body,
-html {
-  width: 100%;
-}
-h1 {
-  text-align: center;
-  margin: 1em;
-}
+
+
 .threef,
 .tai,
 .kwan,
@@ -22,7 +16,7 @@ h1 {
 
 .threef {
   padding: 1em;
-  text-align: center;
+  /* text-align: center; */
   border-top: 1em  blue;
   border-left: 1em  blue;
   border-bottom: 0.5em  blue;
@@ -30,6 +24,7 @@ h1 {
 }
 
 .tai {
+  padding: auto;
   border-top: 1em  blue;
   border-right: 1em  blue;
   border-bottom: 0.5em  blue;
@@ -37,6 +32,7 @@ h1 {
 }
 
 .kwan {
+  margin: auto;
   border-top: 0.5em  blue;
   border-right: 0.5em  blue;
   border-bottom: 1em  blue;
@@ -71,7 +67,13 @@ h1 {
   height: 47%;
 }
 
-.first_box1,
+.first_box1 {
+  height: 100%;
+  width: 47%;
+  background-color: aqua;
+  border-top: 1em  blue;
+  border-bottom: 1em  blue;
+}
 .first_box2 {
   height: 100%;
   width: 47%;
@@ -103,7 +105,12 @@ h1 {
   padding: 1em;
 }
 
-.secfirst,
+.secfirst{
+  height: 100%;
+  width: 47%;
+  background-color: aqua;
+  text-align: center;
+}
 .secsec {
   height: 100%;
   width: 47%;
