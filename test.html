@@ -1,224 +1,60 @@
 <!DOCTYPE html>
-<html lang='en'>
-  
+<html lang="en">
+
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
-    <meta charset="utf-8">
-  
-  
-  
-    <style>
-        body,
-        html {
-            height: 100%;
-            width: 100%;
-            overflow: hidden;
-        }
-  
-        .box-wrapper {
-            height: 600px;
-            width: 100vw;
-            display: flex;
-            flex-direction: column;
-        }
-  
-        #box1 {
-            padding: 10px;
-            height: 30px;
-            line-height: 30px;
-            border: solid 1px green
-        }
-  
-        #box2 {
-            height: 15px;
-            padding: 8px;
-            border: solid 1px blue
-        }
-  
-        #box3 {
-            padding: 10px;
-            flex-grow: 1;
-            display: flex;
-            flex-direction: row;
-            border: solid 1px green
-        }
-  
-        #box4 {
-            flex-grow: 2;
-            border: solid 1px orange
-        }
-        #box5 {
-            padding: 1em;
-            height: 500px;
-            flex-grow: 2;
-            width: 130px;
-            margin-left: 1em;
-            display: inline-block;
-            border: solid 1px orange
-        }
-        #box8 {
-            padding: 1em;
-            height: 200px;
-            flex-grow: 2;
-            width: 130px;
-            margin-left: 1em;
-            display: inline-block;
-            border: solid 1px orange
-        }
-        #imgs {
-            width: 200px;
-            height: 200px;
-            /* border-radius: 50%; */
-            text-align: center;
-            font-size: 30px;
-            float: left;
-            font-weight: bold;
-              
-            /* Change the shape according
-                to the image */
-            /* shape-outside: circle(); */
-            background-color: Green;
-            color: white;
-        }
-        #box8 {
-            padding-top: -456px;
-            padding: 1em;
-            height: 200px;
-            /* flex-grow: 2; */
-            width: 130px;
-            margin-left: 1em;
-            display: inline-block;
-            border: solid 1px orange
-        }
-        #box6 {
-            padding: 1em;
-            height: 200px;
-            flex-grow: 2;
-            width: 130px;
-            margin-left: 1em;
-            display: inline-block;
-            border: solid 1px orange
-        }
-        #box7 {
-            padding: 1em;
-            height: 300px;
-            flex-grow: 2;
-            width: 250px;
-            margin-left: 1em;
-            display: block;
-            border: solid 1px orange
-        }
-  
-        .middle-column {
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-  
-        }
-  
-        .middle-column div {
-            flex-grow: 1;
-            margin: 0 8px;
-            border: solid 1px red;
-        }
-  
-        .middle-column div+div {
-            margin-top: 8px
-        }
-  
-        #box8 {
-            flex-grow: 1;
-            border: solid 1px black
-        }
-        #box9 {
-            display: inline-block;
-            overflow: hidden;
-            border: solid 1px black
-        }
-    </style>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="prompt.css">
 </head>
-  
+
 <body>
-    <div class="box-wrapper">
-        <!-- <div id="box1">
-            GeeksforGeeks 1
-        </div> -->
-  
-        <!-- <div id="box2">
-            GeeksforGeeks 2
-        </div> -->
-  
-        <div id="box3">
-            <div id="box4">
-                <div id="box6">
-                    
+       
+        <div class="container">
+                <div class="box" id="box1">
+                        <div class="box1_A">
+                                <div class="boxy"></div>
+                                <div class="boxu"></div>
+                        </div>
+                        <div class="box1_B">
+                                <ol>
+                                        <li>styling</li>
+                                        <li>position</li>
+                                        <li>html</li>
+                                        <li>padding</li>
+                                        <li>responsiveness</li>
+                                       
+                                </ol>
+                        </div>
                 </div>
-                <div id="box6">
-                   
+                <div class="box" id="box2">
+                        <div class="box2_A">
+                                <h1>1</h1>
+                        </div>
+                        <div class="box2_B">
+                                <h1>2</h1>
+                        </div>
                 </div>
-                <div id="box7">
-                   
-                        <li>I dont know why but except for the responsive part its looking same as the given module in my local system but changes on opening via git link</li>
-                         <li>Specificity, inheritance, and the Cascade</li>   
-                         <li> CSS units and values and functional notations</li>  
-                         <li>Box model and margin collapse</li>   
-                           <li>The containing block</li> 
-                          <li>Stacking and block-formatting contexts</li>  
-                           <li>Initial, computed, used, and actual values</li> 
-                          <li>CSS shorthand properties</li>  
-                            
-                    
+                <div class="box" id="box3">
+                        <div class="box3_A">
+                                <p>
+                                       hey sample text
+                                </p>
+                        </div>
+                        <div class="box3_B">
+                                <img src="images/p1.jpg" alt="" srcset="">
+                        </div>
+                        <div class="box3_C">
+                                <img src="images/p2.jpg" alt="" srcset="">
+                        </div>
+                        <div class="box3_D"></div>
                 </div>
-            </div>
-            <div id="box4">
-                <div id="box5">
-                    
-                </div>
-                <div id="box5">
-                    
-                </div>
-            </div>
-            <!-- <div class="middle-column">
-                <div id="box5">
-                    GeeksforGeeks 5
-                </div>
-                <div id="box6">
-                    GeeksforGeeks 6
-                </div>
-                <div id="box7">
-                    GeeksforGeeks 7
-                </div>
-            </div> -->
-            <div id="box4">
-                
-
-                <div id="box9">
-                    <img src="./images/p1.jpg" id="imgs">
-                    CSS is the language for describing the presentation.
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-
-                    <!-- <img src="./images/p1.jpg" id="imgs"> -->
-                The HTML is used to generate the user interface
-                    <img src="./images/p2.jpg" id="imgs">
-                
-                </div>
-
-            </div>
         </div>
-    </div>
 </body>
-  
+
+
+
 </html>
